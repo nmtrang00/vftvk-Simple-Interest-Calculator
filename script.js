@@ -13,7 +13,7 @@ function updateRate()
 {
     // To update rate when users change the slider
     var rateval = document.getElementById("rate").value;
-    document.getElementById("rate_val").innerText=rateval;
+    document.getElementById("rate_val").innerText=rateval+" %";
 }
 
 function validate_value()
